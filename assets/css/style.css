@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* || HEADER */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +16,18 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
-header nav {
+
+/* || NAVIGATION */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,7 +35,7 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul li {
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -42,6 +45,7 @@ a {
     text-decoration: none;
 }
 
+/* || HERO IMAGE */
 .hero {
     height: 800px;
     width: 100%;
@@ -49,6 +53,7 @@ a {
     object-fit: cover;
 }
 
+/* || MAIN */
 main {
     width: 75%;
     display: inline-block;
@@ -83,6 +88,7 @@ main h2 {
     margin-left: 25px;
 }
 
+/* ASIDE */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -110,6 +116,7 @@ aside img {
     max-width: 150px;
 }
 
+/* || FOOTER */
 footer {
     padding: 30px;
     clear: both;
