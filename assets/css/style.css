@@ -16,15 +16,15 @@ header {
     color: #ffffff;
 }
 
-h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Different color to make SEO stand out in company name */
 .seo {
     color: #d9dcd6;
 }
-
 
 /* || NAVIGATION */
 nav {
@@ -35,12 +35,12 @@ nav {
     font-size: 20px;
 }
 
-li {
+nav li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+nav a {
     color: #ffffff;
     text-decoration: none;
 }
